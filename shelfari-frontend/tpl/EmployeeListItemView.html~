@@ -1,3 +1,0 @@
-<a href='#book/<%= id %>'>
-    <p class="list-item"><%= title %></p>
-</a>
