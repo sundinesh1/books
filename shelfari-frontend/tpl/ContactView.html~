@@ -1,0 +1,45 @@
+<br/>
+<div class="row-fluid">
+	<div>
+	    <form>
+		<table class="table table-striped">
+			<tr>
+				<td>
+					Book Name: 
+				</td>
+				<td>
+					<input id="title" type="text" name="title"><br>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					Author Name: 
+				</td>
+				<td> 
+					<input id="author" type="text" name="author"><br>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					Status:
+				</td>
+				<td>
+					<select id="status" name="status">
+						<option value="read">Read</option>
+						<option value="notread">Not Read</option>
+					</select>
+				</td>
+			</tr>
+			
+			<br><br>
+			<tr>
+				<td>
+					<input type="button" id="save" class="btn btn-navbar" value="Save">
+				</td>
+			</tr>
+		</table>
+	    </form>
+	</div>
+</div>
